@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(190, 14, 14);
+    display: flex;
+    font-size: 100px;
+    margin-left: 650px;
+}
+body{
+    background-image:url("bg1.jpg")  ;
+}
+
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.surrounding{
+    background-color: aqua;
+    
+}
+.surrounding:hover{
+    opacity:0.2  ;
+
+}
